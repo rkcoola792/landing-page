@@ -3,7 +3,9 @@ import Form from './Form'
 
 const Hero = () => {
   return (
-    <div className='bg-red px-4 sm:px-24 2xl:px-0 max-w-[1440px] flex justify-between  items-center h-svh bg-gradient-to-t from- to-white  '>
+    
+
+    <div className='bg-red  flex justify-between  items-center my-12 mt-24 '>
       <div className='left w-[70%] flex flex-col gap-4'>
         <div className='heading font-bold'><h2>Media Dynox<span className='text-red-500'>.</span></h2></div>
         <div className='star-subheading relative'>
@@ -17,7 +19,11 @@ const Hero = () => {
       <div className='right w-[40%]'>
        <Form></Form>
       </div>
+      {/* <div className='bacground absolute -z-10'>
+        <img src="/BG.png"></img>
+      </div> */}
     </div>
+   
   )
 }
 
