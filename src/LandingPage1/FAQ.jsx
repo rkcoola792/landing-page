@@ -6,31 +6,31 @@ const FAQ = () => {
   return (
     <div className=" py-6 sm:py-12 sm:p-8">
       <div className="mx-auto">
-        <h3 className="text-center text-3xl font-semibold mb-4">
+        <h3 className="text-center text-2xl sm:text-3xl font-semibold mb-4">
           <span className="text-mainRed">Frequently</span> Asked Questions
         </h3>
         <div className="shadow-md sm:px-16 px-6 sm:py-8 rounded-lg border border-gray-50 mt-12">
         <Question title="Why choose Media Dynox among other digital marketing advertising agencies?" defaultOpen>
-          <p className="sm:text-xl text-sm ">
+          <p className="lg:text-xl text-sm leading-6">
           Our deep understanding of the Delhi market, combined with our expertise in digital strategy and execution, makes us the best choice for businesses seeking impactful digital growth.
           </p>
         </Question>
         <Question title="How does our digital marketing ad agency stand out?">
-          <p className="sm:text-xl text-sm">
+          <p className="lg:text-xl text-sm leading-6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
             laboriosam neque reprehenderit saepe eius dolorum vel consequuntur
             perspiciatis ad vero.
           </p>
         </Question>
         <Question title="What benefits can you expect from our integrated digital marketing and advertising approach?">
-          <p className="sm:text-xl text-sm">
+          <p className="lg:text-xl text-sm leading-6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
             laboriosam neque reprehenderit saepe eius dolorum vel consequuntur
             perspiciatis ad vero.
           </p>
         </Question>
         <Question title="Why is BRIX Templates the best Webflow agency?">
-          <p className="sm:text-xl text-sm">
+          <p className="lg:text-xl text-sm leading-6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
             laboriosam neque reprehenderit saepe eius dolorum vel consequuntur
             perspiciatis ad vero.
@@ -52,18 +52,18 @@ const Question = ({ title, children, defaultOpen = false }) => {
     >
       <button
         onClick={() => setOpen((pv) => !pv)}
-        className="2xl:py-6 py-4 w-full flex items-start justify-between gap-4"
+        className="2xl:py-6 py-2 lg:py-4 w-full flex items-start justify-between gap-4"
       >
         <motion.span
           variants={{
             open: {
-              color: "rgba(3, 6, 23, 0)",
+              // color: "rgba(3, 6, 23, 0)",
             },
             closed: {
-              color: "rgba(3, 6, 23, 1)",
+              // color: "rgba(3, 6, 23, 1)",
             },
           }}
-          className="sm:text-2xl text-base font-bold  text-left bg-gradient-to-r from-black to-black bg-clip-text"
+          className="lg:text-2xl text-sm sm:text-base font-semibold  text-left "
         >
           {title}
         </motion.span>
