@@ -18,7 +18,7 @@ const Section2 = () => {
             <div className="star hidden sm:block ">
               <img src="smallStar.webp"></img>
             </div>
-            <p className="sm:w-[60%]">
+            <p className="lg:w-[60%]">
               <span className="font-semibold">Expert Team:</span><span className="text-gray-500"> A skilled team with deep digital expertise, ready to
               propel your brand forward.</span>
             </p>
@@ -28,7 +28,7 @@ const Section2 = () => {
             <div className="star hidden sm:block">
               <img src="smallStar.webp"></img>
             </div>
-            <p className="sm:w-[60%]">
+            <p className="lg:w-[60%]">
             <span className="font-semibold">Cutting-Edge Solutions:</span><span className="text-gray-500"> Utilizing the latest trends and tools in SEO, PPC, social media, and content marketing.</span>
             </p>
           </div>
@@ -37,14 +37,14 @@ const Section2 = () => {
             <div className="star w-10 hidden sm:block">
               <img src="smallStar.webp"></img>
             </div>
-            <p className="sm:w-[60%]">
+            <p className="lg:w-[60%]">
             <span className="font-semibold">Measurable Results:</span><span className="text-gray-500" >Focused on delivering tangible outcomes that drive growth and enhance your digital presence.</span> 
             </p>
           </div>
         </div>
       </div>
-      <div className='right-image absolute top-12 -right-16 hidden sm:block '>
-        <img src='/rocket.webp' className="w-[450px]"></img>
+      <div className='right-image absolute lg:top-12 lg:-right-16 bottom-2 -right-12 hidden lg:block '>
+        <img src='/rocket.webp' className="lg:w-[450px] w-[280px]"></img>
       </div>
     </div>
   );
