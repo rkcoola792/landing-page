@@ -2,7 +2,7 @@ import React from "react";
 
 const Section2 = () => {
   return (
-    <div className="section2 flex bg-secondary sm:p-12 p-8 rounded-3xl relative text-base my-24 ">
+    <div className="section2 flex bg-secondary sm:p-12 p-8 rounded-3xl relative text-base ">
       <div className="left flex flex-col gap-8 ">
         <div className="heading">
           <h2 className="font-semibold text-center sm:text-left">Who We Are</h2>
