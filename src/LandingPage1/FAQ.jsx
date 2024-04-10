@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FiChevronDown } from "react-icons/fi";
 import { motion } from "framer-motion";
 
-const FAQ = () => {
+const FAQ = ({question1,question2,question3,question4,answer1,answer2,answer3,answer4}) => {
   return (
     <div className=" py-6 sm:py-12 sm:p-8">
       <div className="mx-auto">
