@@ -1,8 +1,7 @@
-// 
 
 import React from 'react'
 
-const Section4 = () => {
+const Section4 = ({heading, subheading,cta}) => {
   return (
     <div className="section3   ">
       <div className="image relative ">
@@ -26,9 +25,6 @@ const Section4 = () => {
             </div>
           </div>
         </div>
-
-       
-
       </div>
     </div>
   );

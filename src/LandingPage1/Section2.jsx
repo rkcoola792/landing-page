@@ -1,6 +1,6 @@
 import React from "react";
 
-const Section2 = () => {
+const Section2 = ({heading,subheading1, subheading2,descriptionHeading1,descriptionContent1,descriptionHeading2,descriptionContent2,descriptionHeading3,descriptionContent3}) => {
   return (
     <div className="section2 flex bg-secondary sm:p-12 p-8 rounded-3xl relative text-base ">
       <div className="left flex flex-col gap-8 ">

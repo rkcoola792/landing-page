@@ -7,9 +7,84 @@ import LandingPage1 from "./LandingPage1/LandingPage1";
 function App() {
   const router = createBrowserRouter([
     {
+      path: "/Digital-Marketing-Agency",
+      element: <LandingPage1></LandingPage1>,
+    },
+    {
       path: "/",
       element: <LandingPage1></LandingPage1>,
-    
+    },
+    {
+      path: "/",
+      element: <LandingPage1></LandingPage1>,
+    },
+    {
+      path: "/",
+      element: <LandingPage1></LandingPage1>,
+    },
+    {
+      path: "/",
+      element: <LandingPage1></LandingPage1>,
+    },
+    {
+      path: "/",
+      element: <LandingPage1></LandingPage1>,
+    },
+    {
+      path: "/",
+      element: <LandingPage1></LandingPage1>,
+    },
+    {
+      path: "/",
+      element: <LandingPage1></LandingPage1>,
+    },
+    {
+      path: "/",
+      element: <LandingPage1></LandingPage1>,
+    },
+    {
+      path: "/",
+      element: <LandingPage1></LandingPage1>,
+    },
+    {
+      path: "/",
+      element: <LandingPage1></LandingPage1>,
+    },
+    {
+      path: "/",
+      element: <LandingPage1></LandingPage1>,
+    },
+    {
+      path: "/",
+      element: <LandingPage1></LandingPage1>,
+    },
+    {
+      path: "/",
+      element: <LandingPage1></LandingPage1>,
+    },
+    {
+      path: "/",
+      element: <LandingPage1></LandingPage1>,
+    },
+    {
+      path: "/",
+      element: <LandingPage1></LandingPage1>,
+    },
+    {
+      path: "/",
+      element: <LandingPage1></LandingPage1>,
+    },
+    {
+      path: "/",
+      element: <LandingPage1></LandingPage1>,
+    },
+    {
+      path: "/",
+      element: <LandingPage1></LandingPage1>,
+    },
+    {
+      path: "/",
+      element: <LandingPage1></LandingPage1>,
     },
  
   

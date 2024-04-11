@@ -1,7 +1,7 @@
 import React from 'react'
 import Form from './Form'
 
-const Hero = ({heading}) => {
+const Hero = ({subheading,description}) => {
   return (
     
 <div className=''>
